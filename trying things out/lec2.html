@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Forms</title>
+        <style>
+                body {background-color: darkslategrey;}
+                h1 {color: blanchedalmond;
+                    text-align: center; 
+                    font-size: 300%;
+                    font-family: verdana;
+                    }
+                label {
+                        color: azure;
+                }    
+        </style>            
+    </head>
+
+    <aside>
+        
+        <p>Epcot is a theme park at Walt Disney World 
+        Resort featuring exciting attractions, 
+        international pavilions, award-winning 
+        fireworks and seasonal special events.</p>
+        </aside>
+        
+
+    <body>
+        <h1>FORM</h1>
+        <form method="get">
+        <fieldset>
+                <legend>log in</legend>
+        <label for="fname">First Name:</label>
+        <br>
+        <input type="text" id="fname" name="fname">
+        <br>
+        <label for="lname">Last Name:</label>
+        <br>
+        <input type="text" id="lname" name="lname">
+        <br>
+        <label for="pas">Password:</label>
+        <br>
+        <input type="password" id="pas" name="pas" required>
+        <br>
+        <label for="tel">Telephone number:</label>
+        <br>
+        <input type="date" id="date" name="date">
+        <br>
+        <input type="submit"><br>
+        <label for="points">Points:</label>
+        <input type="number" id="points" name="points" step="-1">
+        </fieldset>
+
+        <label for="colors">Choose your favorite color</label>
+        <input list="colors">
+        <datalist id="colors">
+                <option value="red">
+                <option value="yellow">
+                <option value="blue">
+                <option value="purple">
+                <option value="green">
+        </datalist>
+        <select>
+                <option value="red">red</option>
+                <option value="yellow">yellow</option>
+                <option value="blue">blue</option>
+                <option value="purple">purple</option>
+                <option value="green">green</option>                                                         
+        </select>
+</form>
+<iframe src="index2.html" style="height:200px;width:300px;
+" title="Iframe Example"></iframe>
+
+<nav>
+        <a href="/html/">HTML</a> |
+        <a href="/css/">CSS</a> |
+        <a href="/js/">JavaScript</a> |
+        <a href="/jquery/">jQuery</a>
+        </nav>
+
+        
+    </body>
+</html>    
